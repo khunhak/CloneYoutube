@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .stretch{
+            background-color: green;
+            color: white;
+            padding: 7px 12px;
+            border: none;
+            border-radius: 2px;
+            transition: padding 0.2s;
+        }
+        .stretch:hover{
+            padding: 14px 24px;
+        }
+        .shadow{
+            background-color: green;
+            color: white;
+            padding: 7px 12px;
+            border: none;
+            border-radius: 2px;
+            transition: box-shadow 0.2s;
+        }
+        .shadow:active{
+            box-shadow: 3px 3px 4px rgba(0,0,0,0.2);
+        }
+       
+    </style>
+</head>
+<body>
+    <button class="stretch">Stretch</button>
+    <button class="shadow">Shadow</button>
+    
+</body>
+</html>

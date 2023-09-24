@@ -1,0 +1,44 @@
+p{
+    font-family: roboto;
+}
+.search-bar{
+    display: block;
+}
+.thumbnail{
+    width: 100%;
+}
+
+.video-container-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 16px;
+}
+.video-description{
+    
+    font-size: 14px;
+    font-weight: bolder;
+    margin-top: 0px;
+    line-height: 20px;
+}
+.video-author{
+    color: grey;
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+.view-count{
+    color: gray;
+    font-size: 13px;
+    margin-top: 5px;
+    
+}
+
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.channel-pic{
+    width: 40px;
+    border-radius: 50%;
+}
